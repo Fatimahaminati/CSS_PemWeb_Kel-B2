@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+
+    <!-- Internal Styles -->
+    <style>
+        p {
+            color: slategray;
+            font-size: 16px;
+        }
+    </style>
+
+    <!-- Link ke file CSS eksternal -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header dengan ID -->
+    <header id="header">
+        <!-- Inline Styles -->
+        <h1 style="color: blue; font-size: 24px;">Welcome to My Blog</h1>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p style="color: gray;">
+                Hi, I'm a budding web developer learning CSS! I enjoy adding long text to my webpage to demonstrate how the 
+                <span class="highlight">::first-line</span> pseudo-element works for visitors.
+            </p>
+            <p>
+                I love <span class="highlight">coding,</span> reading, and hiking.
+            </p>
+            <p>
+                Contact me via <a href="mailto:example@mail.com">email</a>.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
